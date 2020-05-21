@@ -1,6 +1,5 @@
 .h1 {
-  margin-top: 62px;
-  margin-bottom: 60px;
+  margin: 44px 0 44px 0;
   font-size: 50px;
   letter-spacing: 3px;
   color: #4a4e69;
@@ -13,7 +12,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-34%);
-  padding: 75px;
+  padding: 70px;
   font-weight: 300;
   letter-spacing: 1px;
 }

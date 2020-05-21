@@ -1,5 +1,14 @@
 /* Navigation Bar */
 
+.header {
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  background-color: rgba(245, 245, 245, 0.8);
+  border-bottom: 5px solid #4a4e69;
+}
+
 .sidebar {
   height: 100%;
   width: 300px;
