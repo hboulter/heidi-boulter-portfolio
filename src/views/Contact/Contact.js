@@ -9,7 +9,7 @@ const Contact = () => {
         <form
           action="mailto:boulter.heidi@gmail.com"
           method="post"
-          enctype="text/plain"
+          encType="text/plain"
         >
           Name* <input className="name" type="text" name="name" required />
           Email* <input className="email" type="email" name="email" required />

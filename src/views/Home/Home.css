@@ -11,6 +11,10 @@
   color: #4a4e69;
 }
 
+hr {
+  border-top: 1px solid rgb(245, 245, 245);
+}
+
 .h1 {
   font-weight: 100;
 }

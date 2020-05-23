@@ -1,5 +1,4 @@
 .intro {
-  margin: 42px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -22,7 +21,6 @@
   float: left;
   margin: 26px 20px 20px 0;
   font-size: 40px;
-  width: 115px;
   text-transform: uppercase;
   color: rgb(245, 245, 245);
 }
