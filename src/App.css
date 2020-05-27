@@ -1,10 +1,16 @@
+/* body {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+} */
+
 .header {
   z-index: 1;
   height: 100px;
   width: 100%;
   position: sticky;
   background-color: rgba(245, 245, 245, 0.8);
-  border-bottom: 5px solid #4a4e69;
+  border-bottom: 0.375rem solid #4a4e69;
 }
 
 /* buttons */
@@ -14,16 +20,14 @@
   font-size: 16px;
   color: #4a4e69;
   background: none;
-  padding: 12px;
-  margin: 12px;
+  padding: 0.75rem;
+  margin: 0.75rem;
   border-radius: 1px;
-  letter-spacing: 2px;
-  border: 2px solid rgb(245, 245, 245);
-  /* transition: all 0.3s ease-in-out; */
+  letter-spacing: 0.125rem;
+  border: 0.125rem solid rgb(245, 245, 245);
+  transition: all 0.3s ease-in-out;
 }
 
 .submit__button:hover {
   background-color: rgb(245, 245, 245, 0.75);
-  /* transform: translateY(-2px);
-  transition: all 0.3s ease-in-out; */
 }

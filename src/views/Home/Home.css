@@ -6,13 +6,13 @@
 }
 
 .home__heading {
-  margin: 42px;
-  padding-bottom: 16px;
+  margin: 2.62rem;
+  padding-bottom: 1rem;
   color: #4a4e69;
 }
 
 hr {
-  border-top: 1px solid rgb(245, 245, 245);
+  border-top: 0.0625rem solid rgb(245, 245, 245);
 }
 
 .h1 {
@@ -21,24 +21,22 @@ hr {
 
 .h2 {
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 .home__links {
-  margin: 12px;
+  margin: 0.75rem;
 }
 
 .home__button {
-  padding: 12px;
-  margin: 12px;
-  border-radius: 1px;
-  letter-spacing: 2px;
-  border: 2px solid rgb(245, 245, 245);
-  /* transition: all 0.3s ease-in-out; */
+  padding: 0.75rem;
+  margin: 0.75rem;
+  border-radius: 0.0625rem;
+  letter-spacing: 0.125rem;
+  border: 0.125rem solid rgb(245, 245, 245);
+  transition: all 0.3s ease-in-out;
 }
 
 .home__button:hover {
   background-color: rgb(245, 245, 245, 0.75);
-  /* transform: translateY(-2px);
-  transition: all 0.3s ease-in-out; */
 }

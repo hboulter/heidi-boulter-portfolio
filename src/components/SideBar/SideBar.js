@@ -5,7 +5,7 @@ import "./SideBar.css";
 
 const NavBar = () => {
   const activeStyles = {
-    borderBottom: "1px solid #f5f5f5",
+    borderBottom: "0.0625rem solid #f5f5f5",
     color: "#f5f5f5",
     transition: "all 0.3s ease-in-out",
   };
@@ -14,15 +14,17 @@ const NavBar = () => {
     <>
       <div className="header"></div>
       <div className="sidebar">
-        <div className="sidebar__header">
+        <div className="img__shape">
           <NavLink to="/" exact>
             <img
               src="../images/1.jpg"
               alt="profile_img"
-              className="profile_img"
+              className="profile__img"
             />
+            <div className="profile__title">Heidi Boulter</div>
           </NavLink>
         </div>
+
         <div>
           <ul className="ul">
             <li className="li">
@@ -70,6 +72,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+
         <div className="sidebar__footer">
           <Footer />
         </div>

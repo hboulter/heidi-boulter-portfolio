@@ -1,22 +1,22 @@
 .card {
   position: relative;
-  height: 450px;
-  width: 900px;
-  margin: 200px auto;
+  height: 28.125rem;
+  width: 56.25rem;
+  margin: 12.5rem auto;
   background-color: rgb(245, 245, 245);
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 
 .thumbnail {
   float: left;
   position: relative;
-  left: 30px;
-  top: -30px;
-  height: 320px;
-  width: 530px;
-  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  left: 1.875rem;
+  top: -1.875rem;
+  height: 20rem;
+  width: 32rem;
+  box-shadow: 0.625rem 0.625rem 3.75rem 0rem rgba(0, 0, 0, 0.75);
   overflow: hidden;
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 
 img.left {
@@ -31,58 +31,56 @@ img.left {
 }
 
 .right {
-  margin-left: 590px;
-  margin-right: 20px;
+  margin-left: 36rem;
+  margin-right: 1.25rem;
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 1.25rem;
   margin: 0;
   color: #4a4e69;
 }
 
 .gh {
-  margin: 20px;
+  margin: 1.25rem;
   cursor: pointer;
   color: #9a8c98;
 }
 
 .youtube {
-  margin: 20px;
+  margin: 1.25rem;
   cursor: pointer;
   color: #9a8c98;
 }
 
 .separator {
-  margin-top: 10px;
-  border: 1px solid #c3c3c3;
+  margin-top: 0.625rem;
+  border: 0.0625rem solid #c3c3c3;
 }
 
-p {
+.description {
   text-align: justify;
-  padding-top: 10px;
-  font-size: 16px;
+  padding-top: 0.625rem;
+  font-size: 1rem;
   color: #4b4b4b;
   line-height: 150%;
 }
 
 .icons {
-  margin-right: 250px;
+  margin-right: 15.625rem;
   list-style: none;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  padding-inline-start: 2.5rem;
 }
 
 .tech {
   position: absolute;
-  left: 60px;
-  bottom: 50px;
-  background-color: #9a8c98;
-  height: 30px;
-  width: 110px;
-  border-radius: 20px;
+  background-color: #9ecaff;
+  left: 3rem;
+  bottom: 3rem;
+  width: 30rem;
 }

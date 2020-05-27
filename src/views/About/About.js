@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="intro">
       <div className="intro-description">
-        <p>
+        <p className="about">
           <span>Work hard</span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -16,7 +16,7 @@ const About = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <p>
+        <p className="about">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -27,7 +27,7 @@ const About = () => {
         </p>
       </div>
       <div className="intro-description">
-        <p>
+        <p className="about">
           <span>Play hard</span>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis
@@ -38,7 +38,7 @@ const About = () => {
           enim ut tellus elementum sagittis vitae et leo.
         </p>
 
-        <p>
+        <p className="about">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
