@@ -2,12 +2,13 @@
   margin: 2rem 0;
   font-size: 50px;
   letter-spacing: 3px;
-  color: #4a4e69;
+  color: #82716e;
 }
 
 .form {
-  border-color: rgb(245, 245, 245);
-  border-style: double;
+  color: #82716e;
+  border-color: #c2b490;
+  border: solid 4px rgb(245, 245, 245);
   width: 55%;
   position: absolute;
   left: 50%;
@@ -24,38 +25,58 @@
 }
 
 .name {
+  color: #82716e;
+  padding: 10px;
+  font: inherit;
+  resize: none;
   width: 25rem;
   margin: 0.75rem auto;
   height: 25px;
-  background-color: rgb(245, 245, 245);
   outline: none;
-  border-width: 1px;
-  border-color: rgba(75, 78, 105);
-  border-radius: 0.125rem;
-  box-shadow: 0 0.125rem 0.125rem rgba(75, 78, 105, 0.75);
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #c2b490;
+}
+
+.name::placeholder {
+  color: #82716e;
+  letter-spacing: 0.125rem;
 }
 
 .email {
+  color: #82716e;
+  padding: 10px;
+  font: inherit;
+  resize: none;
   width: 25rem;
   margin: 0.75rem auto;
   height: 25px;
-  background-color: rgb(245, 245, 245);
   outline: none;
-  border-width: 1px;
-  border-color: rgba(75, 78, 105);
-  border-radius: 0.125rem;
-  box-shadow: 0 0.125rem 0.125rem rgba(75, 78, 105, 0.75);
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #c2b490;
 }
 
-.textarea {
+.email::placeholder {
+  color: #82716e;
+  letter-spacing: 0.125rem;
+}
+
+.message {
+  color: #82716e;
+  padding: 10px;
+  font: inherit;
   width: 25rem;
   margin: 0.75rem auto;
   height: 100px;
-  resize: none;
-  background-color: rgb(245, 245, 245);
   outline: none;
-  border-width: 1px;
-  border-color: rgba(75, 78, 105);
-  border-radius: 0.125rem;
-  box-shadow: 0 0.125rem 0.125rem rgba(75, 78, 105, 0.75);
+  resize: none;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #c2b490;
+}
+
+.message::placeholder {
+  color: #82716e;
+  letter-spacing: 0.125rem;
 }

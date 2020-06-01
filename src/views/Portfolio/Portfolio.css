@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  height: 28.125rem;
-  width: 56.25rem;
+  height: 28rem;
+  width: 56rem;
   margin: 12.5rem auto;
   background-color: rgb(245, 245, 245);
   border-radius: 0.125rem;
@@ -14,7 +14,8 @@
   top: -1.875rem;
   height: 20rem;
   width: 32rem;
-  box-shadow: 0.625rem 0.625rem 3.75rem 0rem rgba(0, 0, 0, 0.75);
+
+  box-shadow: 8px 8px 60px 0 rgba(0, 0, 0, 0.75);
   overflow: hidden;
   border-radius: 0.125rem;
 }
@@ -38,31 +39,31 @@ img.left {
 h1 {
   padding-top: 1.25rem;
   margin: 0;
-  color: #4a4e69;
+  color: #82716e;
 }
 
 .gh {
   margin: 1.25rem;
   cursor: pointer;
-  color: #9a8c98;
+  color: #c2b490;
 }
 
 .youtube {
   margin: 1.25rem;
   cursor: pointer;
-  color: #9a8c98;
+  color: #c2b490;
 }
 
 .separator {
   margin-top: 0.625rem;
-  border: 0.0625rem solid #c3c3c3;
+  border: 0.0625rem solid #c2b490;
 }
 
 .description {
   text-align: justify;
   padding-top: 0.625rem;
   font-size: 1rem;
-  color: #4b4b4b;
+  color: #82716e;
   line-height: 150%;
 }
 
@@ -78,9 +79,13 @@ h1 {
 }
 
 .tech {
+  color: #82716e;
   position: absolute;
-  background-color: #9ecaff;
   left: 3rem;
-  bottom: 3rem;
-  width: 30rem;
+  bottom: 2rem;
+  width: 50rem;
+}
+
+.tech-title {
+  font-weight: bold;
 }

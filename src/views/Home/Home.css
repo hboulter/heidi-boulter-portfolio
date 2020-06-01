@@ -8,20 +8,23 @@
 .home__heading {
   margin: 2.62rem;
   padding-bottom: 1rem;
-  color: #4a4e69;
 }
 
 hr {
-  border-top: 0.0625rem solid rgb(245, 245, 245);
+  border-top: 0.0625rem solid #c2b490;
 }
 
-.h1 {
+.home__heading--h1 {
+  font-size: 50px;
   font-weight: 100;
+  letter-spacing: 3px;
+  color: #82716e;
 }
 
-.h2 {
+.home__heading--h2 {
   font-weight: 300;
   letter-spacing: 0.125rem;
+  color: #82716e;
 }
 
 .home__links {
@@ -33,7 +36,7 @@ hr {
   margin: 0.75rem;
   border-radius: 0.0625rem;
   letter-spacing: 0.125rem;
-  border: 0.125rem solid rgb(245, 245, 245);
+  border: 0.125rem solid #c2b490;
   transition: all 0.3s ease-in-out;
 }
 
