@@ -1,45 +1,72 @@
 .sidebar {
   height: 100%;
-  width: 300px;
+  width: 18.75rem;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #9a8c98;
+  /* background-color: #9a8c98; */
+  background-color: #acb7ae;
   text-align: center;
 }
 
-.profile_img {
-  margin-top: 62px;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+/* Profile Image */
+
+.img__shape {
+  margin: 1rem 0;
+  position: relative;
+  -webkit-clip-path: circle(42% at 50% 50%);
+  clip-path: circle(42% 50% at 50% 50%);
 }
 
-.profile_name {
-  text-transform: uppercase;
-  margin-top: 36px;
-  color: #4a4e69;
-  font-weight: bolder;
-  font-size: 32px;
-  letter-spacing: 2px;
+.profile__img {
+  width: 90%;
+  transform: translateY(5%) scale(1.1);
+  transition: all 0.5s;
+  backface-visibility: hidden;
 }
+
+.profile__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  color: rgb(245, 245, 245);
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  opacity: 0;
+  transition: all 0.5s;
+  backface-visibility: hidden;
+}
+
+.img__shape:hover .profile__title {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.img__shape:hover .profile__img {
+  transform: scale(0.9);
+  filter: blur(3px) brightness(80%);
+}
+
+/* Links */
 
 .ul {
   list-style: none;
-  margin-top: 32px;
   padding: 0;
 }
 
 .li {
-  margin: 12px;
+  margin: 0.75rem;
   padding: 26px;
   text-transform: uppercase;
 }
 
+/* Footer */
+
 .button {
   text-decoration: none;
-  color: #4a4e69;
+  color: #82716e;
   font-weight: 300;
 }
 
@@ -47,6 +74,7 @@
   position: absolute;
   width: 100%;
   height: 115px;
-  background-color: #4a4e69;
+  /* background-color: #4a4e69; */
+  background-color: #82716e;
   bottom: 0;
 }

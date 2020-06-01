@@ -11,13 +11,27 @@ const Contact = () => {
           method="post"
           encType="text/plain"
         >
-          Name* <input className="name" type="text" name="name" required />
-          Email* <input className="email" type="email" name="email" required />
-          Message*
+          <textarea
+            className="name"
+            type="text"
+            name="name"
+            placeholder="Name"
+            autoComplete="off"
+            required
+          />
+          <textarea
+            className="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+            autoComplete="off"
+            required
+          />
           <textarea
             type="text"
-            className="textarea"
+            className="message"
             name="message"
+            placeholder="Message"
             autoComplete="off"
             required
           />

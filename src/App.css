@@ -3,27 +3,25 @@
   height: 100px;
   width: 100%;
   position: sticky;
-  background-color: rgba(245, 245, 245, 0.8);
-  border-bottom: 5px solid #4a4e69;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 0.375rem solid #82716e;
 }
 
 /* buttons */
 
 .submit__button {
-  width: 410px;
+  width: 423px;
   font-size: 16px;
-  color: #4a4e69;
+  color: #82716e;
   background: none;
   padding: 12px;
-  margin: 12px;
+  margin: 0.75rem;
   border-radius: 1px;
-  letter-spacing: 2px;
-  border: 2px solid rgb(245, 245, 245);
-  /* transition: all 0.3s ease-in-out; */
+  letter-spacing: 0.125rem;
+  border: 2px solid #c2b490;
+  transition: all 0.3s ease-in-out;
 }
 
 .submit__button:hover {
   background-color: rgb(245, 245, 245, 0.75);
-  /* transform: translateY(-2px);
-  transition: all 0.3s ease-in-out; */
 }

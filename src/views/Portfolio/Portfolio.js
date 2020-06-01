@@ -35,10 +35,11 @@ const Portfolio = () => {
               </a>
             </div>
             <div className="separator"></div>
-            <p>{project.description}</p>
-            {/* <ul>
-              <li className="tech">{project.techs.map((tech) => tech)}</li>
-            </ul> */}
+            <p className="description">{project.description}</p>
+            <div className="tech">
+              <span className="tech-title">Technologies Utilized: </span>
+              <span>{project.techs}</span>
+            </div>
           </div>
         </div>
       ))}
