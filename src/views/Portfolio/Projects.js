@@ -17,7 +17,7 @@ const projects = [
     github: "https://github.com/hboulter/guess-that-actor",
     youtube: "https://youtu.be/AAkJSU7i9Ik",
     description:
-      "Guess that Actor is a trivia game that uses Youtube's API to play a 10 second video clip for users. The user must guess the actor[s] or actress[es] that starred in the film.",
+      "Guess that Actor is a trivia game that uses the Youtube API to play a 10 second video clip for users. The user must guess the actor[s] or actress[es] that starred in the film.",
     techs: "Javascript, Ruby on Rails, Youtube API, Bootstrap",
   },
   {

@@ -11,6 +11,7 @@ const Contact = () => {
           method="post"
           encType="text/plain"
         >
+          {/* <input */}
           <textarea
             className="name"
             type="text"
@@ -19,6 +20,7 @@ const Contact = () => {
             autoComplete="off"
             required
           />
+          {/* <input */}
           <textarea
             className="email"
             type="email"

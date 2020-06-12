@@ -10,7 +10,7 @@ const Home = () => {
           Hello, I am <strong>Heidi Boulter</strong> <hr />
         </h1>
         <h2 className="home__heading--h2">
-          I am a<strong> Software Engineer</strong> looking for opportunies in
+          I am a<strong> Software Engineer</strong> looking for opportunities in
           <strong> Austin, TX</strong>
         </h2>
       </div>

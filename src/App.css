@@ -7,6 +7,18 @@
   border-bottom: 0.375rem solid #82716e;
 }
 
+.sidebar {
+  height: 100%;
+  width: 18.75rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: #9a8c98; */
+  background-color: #acb7ae;
+  text-align: center;
+}
+
 /* buttons */
 
 .submit__button {

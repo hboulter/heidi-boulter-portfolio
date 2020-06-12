@@ -65,7 +65,7 @@ const NavBar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button"
-                href="https://docs.google.com/document/d/1qwWhOlOsGeoSWFcnIxIjDT4njzWPVYgx1WyyEHohsVc/edit?usp=sharing"
+                href="../Huyen-Boulter-Resume.pdf"
               >
                 Resume
               </a>
