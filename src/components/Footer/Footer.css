@@ -1,22 +1,27 @@
+/* Footer */
+
 .footer {
-  margin: 0.75rem;
-  padding: 0.75rem;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  background-color: #82716e;
+  bottom: 0;
 }
 
 .github {
-  margin: 20px;
+  margin: 25px;
   cursor: pointer;
   color: rgba(245, 245, 245);
 }
 
 .medium {
-  margin: 20px;
+  margin: 25px;
   cursor: pointer;
   color: rgba(245, 245, 245);
 }
 
 .linkedin {
-  margin: 20px;
+  margin: 25px;
   cursor: pointer;
   color: rgba(245, 245, 245);
 }
