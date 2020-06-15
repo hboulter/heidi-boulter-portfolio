@@ -1,17 +1,15 @@
 .home {
-  width: 75%;
-  position: absolute;
-  left: 60%;
-  transform: translate(-50%, 50%);
+  margin-top: 250px;
 }
 
 .home__heading {
-  margin: 2.62rem;
-  padding-bottom: 1rem;
+  margin: 42px;
+  padding-bottom: 16px;
 }
 
 hr {
-  border-top: 0.0625rem solid #c2b490;
+  border-top: 1px solid #c2b490;
+  width: 75%;
 }
 
 .home__heading--h1 {
@@ -23,20 +21,20 @@ hr {
 
 .home__heading--h2 {
   font-weight: 300;
-  letter-spacing: 0.125rem;
+  letter-spacing: 2px;
   color: #82716e;
 }
 
 .home__links {
-  margin: 0.75rem;
+  margin: 12px;
 }
 
 .home__button {
-  padding: 0.75rem;
-  margin: 0.75rem;
-  border-radius: 0.0625rem;
-  letter-spacing: 0.125rem;
-  border: 0.125rem solid #c2b490;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 1px;
+  letter-spacing: 2px;
+  border: 2px solid #c2b490;
   transition: all 0.3s ease-in-out;
 }
 

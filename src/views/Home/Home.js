@@ -14,9 +14,14 @@ const Home = () => {
           <strong> Austin, TX</strong>
         </h2>
       </div>
-      <NavLink to="/contact" exact className={"button home__button"}>
-        Hire Me
-      </NavLink>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        className={"button home__button"}
+        href="mailto:boulter.heidi@gmail.com"
+      >
+        Contact
+      </a>
 
       <NavLink to="/about" exact className={"button home__button"}>
         Learn More
